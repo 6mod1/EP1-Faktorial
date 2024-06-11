@@ -15,16 +15,16 @@ Module Program
                         For i = 1 To cislo
                             soucet = soucet + i
                         Next
-                        Console.WriteLine($"Souèet od 1 do {cislo} je {soucet}")
+                        Console.WriteLine($"Součet od 1 do {cislo} je {soucet}")
                     Else
-                        Console.WriteLine("Èislo nesmí být záporné!")
+                        Console.WriteLine("číslo nesmí být záporné!")
                     End If
                 Else
-                        Console.WriteLine("Zadej èíslo menší než 10!")
+                        Console.WriteLine("Zadej číslo menší než 10!")
                 End If
 
             Else
-                Console.WriteLine("Napiš jen celé èíslo!")
+                Console.WriteLine("Napiš jen celé číslo!")
                 End If
 
 
